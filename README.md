@@ -1,4 +1,4 @@
-# Hi there 👋 I'm [Your Name/Nickname]!
+# Hi there 👋 I'm Wasan!
 
 ### 💻 About Me
 I'm a passionate **[Your Primary Role, e.g., Web Developer, UI/UX Designer, Full-stack Engineer]** with a keen interest in **[Your Specific Interest, e.g., building scalable web applications, creating intuitive user experiences, exploring new technologies]**.
