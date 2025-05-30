@@ -1,15 +1,13 @@
 # Hi there 👋 I'm Wasan!
 
 ### 💻 About Me
-I'm a passionate **[Your Primary Role, e.g., Web Developer, UI/UX Designer, Full-stack Engineer]** with a keen interest in **[Your Specific Interest, e.g., building scalable web applications, creating intuitive user experiences, exploring new technologies]**.
+I'm a passionate **Web Developer** with a keen interest in *building scalable web applications, creating intuitive user experiences, exploring new technologies**.
 
-* 🔭 I’m currently working on **[Name of current main project or a brief description, e.g., a personal portfolio site using Next.js, an e-commerce platform]**
-* 🌱 I’m currently learning **[New technology/skill you're focusing on, e.g., Svelte, Docker, advanced CSS animations]**
-* 👯 I’m looking to collaborate on **[Type of projects you'd like to collaborate on, e.g., open-source projects, interesting web applications]**
-* 💬 Ask me about **[Topics you're knowledgeable/comfortable talking about, e.g., React, Node.js, responsive design]**
-* 📫 How to reach me: **[Your Email Address, e.g., your.email@example.com]**
-* 🌐 My personal website: **[Link to your personal website/portfolio, e.g., https://www.yourwebsite.com]**
-* ⚡ Fun fact: **[A fun fact about yourself, e.g., I love hiking and photography in my free time!]**
+* 🔭 I’m currently working on **a personal portfolio site using Next.js**
+* 🌱 I’m currently learning **Docker, advanced CSS animations**
+* 💬 Ask me about **React, Node.js, responsive design**
+* 📫 How to reach me: **evol1996outlook.com**
+* 🌐 My personal website: **https://development--my-wasan-e4433.asia-east1.hosted.app/**
 
 ---
 
