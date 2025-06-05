@@ -11,9 +11,9 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: 'John Doe | Full-stack Developer',
+  title: 'Wasan Young | Full-stack Web Developer',
   description:
-    'Personal portfolio of John Doe, a Full-stack Developer specializing in modern web technologies.',
+    'Personal portfolio of Wasan Young, a Full-stack Web Developer specializing in modern web technologies.',
 };
 
 export default function RootLayout({
