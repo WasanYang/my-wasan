@@ -58,7 +58,6 @@ export default function ContactSection() {
       toast({
         title: 'Message sent!',
         description: "Thanks for reaching out. I'll get back to you soon.",
-        variant: 'success',
       });
       form.reset();
       setIsSubmitting(false);
