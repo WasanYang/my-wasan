@@ -14,15 +14,29 @@ const skills = [
   'JavaScript',
   'Tailwind CSS',
   'Node.js',
-  'MongoDB',
   'PostgreSQL',
-  'GraphQL',
+  'MySQL',
   'REST APIs',
   'Git',
-  'Figma',
-  'UI/UX Design',
+  'Firebase',
 ];
 
+const experience = [
+  {
+    title: 'Full-stack Developer',
+    company: 'Manao Software',
+    period: '2021 - Present',
+    description:
+      'Responsible for the development and maintenance of web applications using React.js and Go (Programming Language), including database design and management. Actively participated in developing new features and improving system performance.',
+  },
+  {
+    title: 'Junior Web Developer',
+    company: 'Fissionsoft Co.,Ltd.',
+    period: '2018 - 2021',
+    description:
+      'Developed a variety of web applications using the .NET Framework and managed databases with Microsoft SQL Server. Collaborated effectively with the team to deliver high-quality solutions meeting client requirements.',
+  },
+];
 export default function AboutSection() {
   const [mounted, setMounted] = useState(false);
 
@@ -83,7 +97,6 @@ export default function AboutSection() {
                 </div>
               </CardContent>
             </Card>
-
             <Card className='border-none shadow-none bg-transparent'>
               <CardContent className='space-y-8 p-0'>
                 <div>
@@ -104,24 +117,15 @@ export default function AboutSection() {
                 <div>
                   <h3 className='text-xl font-semibold mb-4'>Experience</h3>
                   <div className='space-y-4'>
-                    <ExperienceCard
-                      title='Senior Frontend Developer'
-                      company='TechCorp Inc.'
-                      period='2023 - Present'
-                      description='Leading the frontend development team, architecting scalable solutions, and mentoring junior developers.'
-                    />
-                    <ExperienceCard
-                      title='Full-stack Developer'
-                      company='WebSolutions Ltd.'
-                      period='2020 - 2023'
-                      description='Built and maintained multiple web applications using modern JavaScript frameworks and backend technologies.'
-                    />
-                    <ExperienceCard
-                      title='Junior Developer'
-                      company='StartupX'
-                      period='2018 - 2020'
-                      description='Collaborated in an agile team to develop innovative web applications for various clients.'
-                    />
+                    {experience.map((exp) => (
+                      <ExperienceCard
+                        key={exp.title}
+                        title={exp.title}
+                        company={exp.company}
+                        period={exp.period}
+                        description={exp.description}
+                      />
+                    ))}
                   </div>
                 </div>
               </CardContent>

@@ -10,7 +10,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Separator } from '@/components/ui/separator';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
-import * as z from 'zod';
+import z from 'zod';
 import { Github, Linkedin, Mail, ExternalLink } from 'lucide-react';
 import {
   Form,
@@ -53,15 +53,16 @@ export default function ContactSection() {
     setIsSubmitting(true);
 
     setTimeout(() => {
+      console.log(values);
+
       toast({
         title: 'Message sent!',
         description: "Thanks for reaching out. I'll get back to you soon.",
+        variant: 'success',
       });
       form.reset();
       setIsSubmitting(false);
     }, 1500);
-
-    console.log(values);
   }
 
   if (!mounted) return null;
@@ -196,10 +197,13 @@ export default function ContactSection() {
               <div className='space-y-4'>
                 <h4 className='text-xl font-medium'>Current Availability</h4>
                 <p className='text-muted-foreground'>
-                  I'm currently available for freelance work and open to
-                  discussing new opportunities. My preferred project types are
-                  web applications, interactive websites, and creative digital
-                  experiences.
+                  I am an experienced Full-stack Web Developer with a strong
+                  background in React.js and Go (or .NET), currently
+                  contributing to a leading company in the tech sector. I am
+                  always open to exploring exciting new opportunities that
+                  involve building innovative web applications, interactive
+                  websites, and creative digital experiences. Let's connect if
+                  you're seeking a seasoned developer to join your team.
                 </p>
                 <Button variant='default' size='lg' className='gap-2' asChild>
                   <a href='#contact'>

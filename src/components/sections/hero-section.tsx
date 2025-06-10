@@ -77,10 +77,10 @@ export default function HeroSection() {
         >
           <div className='relative w-[280px] h-[280px] md:w-[400px] md:h-[400px] rounded-full overflow-hidden border-4 border-primary/10 shadow-xl'>
             <Image
-              src='https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg'
-              alt='John Doe'
+              src='https://firebasestorage.googleapis.com/v0/b/my-wasan-e4433.firebasestorage.app/o/personal%2FA1.jpg?alt=media&token=97449a3a-0e3b-44d5-a014-a47e9a4f129c'
+              alt='Wasan Young'
               fill
-              className='object-cover'
+              className='object-cover object-top scale-125'
               priority
             />
           </div>

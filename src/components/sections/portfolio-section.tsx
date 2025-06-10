@@ -24,87 +24,48 @@ import { Badge } from '@/components/ui/badge';
 import { ExternalLink, Github } from 'lucide-react';
 import Image from 'next/image';
 
-// Sample project data
 const projects = [
   {
     id: 1,
-    title: 'E-commerce Platform',
+    title: 'Rai Rak Doi Phu Thap Boek',
     shortDescription:
-      'A modern e-commerce platform with advanced filtering and payment integration.',
+      'A modern resort website for Phu Thap Boek, featuring efficient data management and booking capabilities.',
     longDescription:
-      'A full-featured e-commerce platform built with Next.js and integrated with Stripe payments. Features include product search with advanced filtering, user authentication, shopping cart functionality, order management, and a responsive admin dashboard.',
+      'The official website for Rai Rak Doi Phu Thap Boek resort, built with Next.js, TypeScript, and Tailwind CSS to provide a fast and visually appealing user experience. It integrates Firebase for effective data management and reservation handling. The site showcases detailed information on room types, amenities, stunning photo galleries of scenic views, and a contact system. Designed for responsiveness across all devices, ensuring an optimal experience for all visitors.',
     image: 'https://images.pexels.com/photos/6956903/pexels-photo-6956903.jpeg',
     technologies: [
       'Next.js',
       'React',
       'TypeScript',
       'Tailwind CSS',
-      'Stripe',
-      'MongoDB',
+      'Firebase',
     ],
     role: 'Full-stack Developer',
-    github: '#',
-    liveDemo: '#',
+    github: 'https://github.com/rakdoi/rakdoi-web/tree/dev',
+    liveDemo: 'https://rakdoi-web.web.app/home',
   },
   {
     id: 2,
-    title: 'Task Management App',
+    title: 'Pachara Boutique',
     shortDescription:
-      'Collaborative task management app with real-time updates.',
+      'A modern online store showcasing a variety of fashion accessories, including bags and phone straps.',
     longDescription:
-      'A productivity tool designed for teams to manage projects and tasks efficiently. Features real-time updates, drag-and-drop task organization, deadline notifications, file attachments, and detailed progress analytics to help teams stay on track.',
-    image: 'https://images.pexels.com/photos/3182774/pexels-photo-3182774.jpeg',
-    technologies: [
-      'React',
-      'Node.js',
-      'Socket.io',
-      'PostgreSQL',
-      'Redux',
-      'Express',
-    ],
-    role: 'Frontend Developer',
-    github: '#',
-    liveDemo: '#',
-  },
-  {
-    id: 3,
-    title: 'Health & Fitness Tracker',
-    shortDescription:
-      'A comprehensive fitness tracking application with personalized insights.',
-    longDescription:
-      'A health and fitness application that helps users track their workouts, nutrition, and wellness goals. Includes features like custom workout plans, meal tracking with nutritional information, progress visualization, and integration with popular fitness wearables.',
-    image: 'https://images.pexels.com/photos/1756959/pexels-photo-1756959.jpeg',
-    technologies: [
-      'React Native',
-      'Firebase',
-      'Redux',
-      'Chart.js',
-      'Node.js',
-      'Express',
-    ],
-    role: 'Lead Developer',
-    github: '#',
-    liveDemo: '#',
-  },
-  {
-    id: 4,
-    title: 'AI-Powered Content Creator',
-    shortDescription:
-      'Content generation tool leveraging AI for marketing teams.',
-    longDescription:
-      'An innovative tool that uses AI to help marketing teams generate and optimize content. Features include SEO suggestions, content repurposing, automated social media post generation, and performance analytics to measure engagement across different platforms.',
-    image: 'https://images.pexels.com/photos/7367/startup-photos.jpg',
+      'An e-commerce platform designed to present and sell various fashion accessories such as bags and phone straps. ' +
+      'Key features include product display with images and pricing (bags at $15, phone straps at $35), ' +
+      'and a web structure ready for future expansion of ordering and payment functionalities. ' +
+      'Built with modern web technologies to ensure a smooth and visually appealing user experience ' +
+      '(website established in 2025).',
+    image: 'https://images.pexels.com/photos/6956903/pexels-photo-6956903.jpeg',
     technologies: [
       'Next.js',
-      'OpenAI API',
-      'Python',
-      'FastAPI',
-      'AWS',
-      'Redis',
+      'React',
+      'TypeScript',
+      'Tailwind CSS',
+      'Firebase',
     ],
-    role: 'Backend Developer & AI Integration',
-    github: '#',
-    liveDemo: '#',
+    role: 'Full-stack Developer',
+    github: 'https://github.com/pheuanpet/web/tree/dev',
+    liveDemo: 'https://pacharaboutique.com/',
   },
 ];
 
